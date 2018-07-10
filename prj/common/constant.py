@@ -1,0 +1,162 @@
+# encoding: UTF-8
+
+# 默认空值
+EMPTY_STRING = ''
+EMPTY_UNICODE = u''
+EMPTY_INT = 0
+EMPTY_FLOAT = 0.0
+
+# 方向常量
+DIRECTION_NONE = u'无方向'
+DIRECTION_LONG = u'多'
+DIRECTION_SHORT = u'空'
+DIRECTION_UNKNOWN = u'未知'
+DIRECTION_NET = u'净'
+DIRECTION_SELL = u'卖出'      # IB接口
+
+# 开平常量
+OFFSET_NONE = u'无开平'
+OFFSET_OPEN = u'开仓'
+OFFSET_CLOSE = u'平仓'
+OFFSET_CLOSETODAY = u'平今'
+OFFSET_CLOSEYESTERDAY = u'平昨'
+OFFSET_UNKNOWN = u'未知'
+
+# 状态常量
+STATUS_NOTTRADED = u'未成交'
+STATUS_PARTTRADED = u'部分成交'
+STATUS_ALLTRADED = u'全部成交'
+STATUS_CANCELLED = u'已撤销'
+STATUS_PENDING = u'排队中'
+STATUS_UNKNOWN = u'未知'
+STATUS_NOSENT = u'sentFail'
+STATUS_PRESUBMITTED = u'pre_submitted'
+STATUS_PRECANCELLED = u'pre_cancelled'
+
+# 合约类型常量
+PRODUCT_EQUITY = u'股票'
+PRODUCT_FUTURES = u'期货'
+PRODUCT_OPTION = u'期权'
+PRODUCT_INDEX = u'指数'
+PRODUCT_COMBINATION = u'组合'
+PRODUCT_FOREX = u'外汇'
+PRODUCT_UNKNOWN = u'未知'
+PRODUCT_SPOT = u'现货'
+PRODUCT_DEFER = u'延期'
+PRODUCT_NONE = ''
+
+# 价格类型常量
+PRICETYPE_LIMITPRICE = u'限价'
+PRICETYPE_MARKETPRICE = u'市价'
+PRICETYPE_FAK = u'FAK'
+PRICETYPE_FOK = u'FOK'
+
+# 期权类型
+OPTION_CALL = u'看涨期权'
+OPTION_PUT = u'看跌期权'
+
+# 交易所类型
+EXCHANGE_SSE = 'SSE'       # 上交所
+EXCHANGE_SZSE = 'SZSE'     # 深交所
+EXCHANGE_CFFEX = 'CFFEX'   # 中金所
+EXCHANGE_SHFE = 'SHFE'     # 上期所
+EXCHANGE_CZCE = 'CZCE'     # 郑商所
+EXCHANGE_DCE = 'DCE'       # 大商所
+EXCHANGE_SGE = 'SGE'       # 上金所
+EXCHANGE_UNKNOWN = 'UNKNOWN'# 未知交易所
+EXCHANGE_NONE = ''          # 空交易所
+EXCHANGE_HKEX = 'HKEX'      # 港交所
+
+EXCHANGE_SMART = 'SMART'       # IB智能路由（股票、期权）
+EXCHANGE_NYMEX = 'NYMEX'       # IB 期货
+EXCHANGE_GLOBEX = 'GLOBEX'     # CME电子交易平台
+EXCHANGE_IDEALPRO = 'IDEALPRO' # IB外汇ECN
+
+EXCHANGE_CME = 'CME'           # CME交易所
+EXCHANGE_ICE = 'ICE'           # ICE交易所
+
+EXCHANGE_OANDA = 'OANDA'       # OANDA外汇做市商
+EXCHANGE_OKCOIN = 'OKCOIN'     # OKCOIN比特币交易所
+EXCHANGE_HUOBI = 'HUOBI'       # HUOBI比特币交易所
+EXCHANGE_HUOBIETH = 'HUOBIETH' # HUOBI比特币交易所
+EXCHANGE_BTCC = 'BTCC'         # BTCC比特币交易所
+EXCHANGE_ZHCOIN = 'ZHCOIN'#'TOKENBANK'
+
+# 货币类型
+CURRENCY_USD = 'USD'            # 美元
+CURRENCY_CNY = 'CNY'            # 人民币
+CURRENCY_UNKNOWN = 'UNKNOWN'    # 未知货币
+CURRENCY_NONE = ''              # 空货币
+
+#数字货币代码
+SYMBOL_BTC_CNY = 'BTC_CNY'
+SYMBOL_ETH_CNY = 'ETH_CNY'
+SYMBOL_LTC_CNY = 'LTC_CNY'
+
+# OKCOIN网站
+OKCOIN_CNY = 'wss://real.okcoin.cn:10440/websocket/okcoinapi'
+OKCOIN_USD = 'wss://real.okcoin.com:10440/websocket/okcoinapi'
+
+# 账户货币代码
+CURRENCY_CNY = 'cny'
+CURRENCY_USD = 'usd'
+
+# 电子货币代码
+SYMBOL_BTC = 'btc'
+SYMBOL_LTC = 'ltc'
+SYMBOL_ETH = 'eth'
+
+# 行情深度
+DEPTH_20 = 20
+DEPTH_60 = 60
+
+# K线时间区间
+INTERVAL_1M = '1min'
+INTERVAL_3M = '3min'
+INTERVAL_5M = '5min'
+INTERVAL_15M = '15min'
+INTERVAL_30M = '30min'
+INTERVAL_1H = '1hour'
+INTERVAL_2H = '2hour'
+INTERVAL_4H = '4hour'
+INTERVAL_6H = '6hour'
+INTERVAL_1D = 'day'
+INTERVAL_3D = '3day'
+INTERVAL_1W = 'week'
+
+# 交易代码，需要后缀货币名才能完整
+TRADING_SYMBOL_BTC = 'btc_'
+TRADING_SYMBOL_LTC = 'ltc_'
+TRADING_SYMBOL_ETH = 'eth_'
+
+# 委托类型
+TYPE_BUY = 'buy'
+TYPE_SELL = 'sell'
+TYPE_BUY_MARKET = 'buy_market'
+TYPE_SELL_MARKET = 'sell_market'
+
+# 期货合约到期类型
+FUTURE_EXPIRY_THIS_WEEK = 'this_week'
+FUTURE_EXPIRY_NEXT_WEEK = 'next_week'
+FUTURE_EXPIRY_QUARTER = 'quarter'
+
+# 期货委托类型
+FUTURE_TYPE_LONG = 1
+FUTURE_TYPE_SHORT = 2
+FUTURE_TYPE_SELL = 3
+FUTURE_TYPE_COVER = 4
+
+# 期货是否用现价
+FUTURE_ORDER_MARKET = 1
+FUTURE_ORDER_LIMIT = 0
+
+# 期货杠杆
+FUTURE_LEVERAGE_10 = 10
+FUTURE_LEVERAGE_20 = 20
+
+# 委托状态
+ORDER_STATUS_NOTTRADED = 0
+ORDER_STATUS_PARTTRADED = 1
+ORDER_STATUS_ALLTRADED = 2
+ORDER_STATUS_CANCELLED = -1
+ORDER_STATUS_CANCELLING = 4

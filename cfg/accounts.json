@@ -1,0 +1,70 @@
+{
+    "za":
+    {
+        "rest_url": "http://api.dev.tokenbank.com:8080",
+        "token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJDQklTQ3pFek1UYzFPRE0yTnpBM0dnNUpUeTVFVDA1SExrNUZXRlJGV0NJRVZWTkZVaWdCIiwiYXVkIjoiSU8uRE9ORy5ORVhURVgiLCJpc3MiOiJJTy5ET05HLlVTRVJNQU5BR0VSIiwiZXhwIjoxNTA0MjU5MjYzfQ.SbWS6YoXQgLv4N62Yxchnu-ncyT1GgX5UCA8i8pzYck",
+        "id": "18"
+    },
+
+    "okex":
+    {
+        "rest_url":"https://www.okex.com/api/v1",
+        "websocket_future_url":"wss://real.okex.com:10440/websocket/okexapi",
+        "websocket_url":"wss://real.okex.com:10441/websocket",
+        "id":"18621528717",
+        "password":"zhon-gan@",
+        "api_key": "ead59d71-5b0b-4257-9133-036a6a376aa2",
+        "secret_key": "D6C816AA175455B20D1341DAE8DD2E2D"
+    },
+
+    "huobi":
+    {
+        "rest_url":"https://www.okex.com/api/v1",
+        "websocket_url":"wss://api.huobi.pro/ws",
+        "id":"18621528717",
+        "UID":"17918191",
+        "password":"zhon-gan@",
+        "api_key": "f0de6392-af55feb2-e7e5bda9-31b50",
+        "secret_key": "cfe1646d-ff5a4f48-80c8b8a0-a2a18"
+    },
+
+    "bithumb":
+    {
+        "id":"84020702@qq.com",
+        "password":"zhon-gan@",
+        "safe_password":"3515",
+        "rest_url": "",
+        "api_key":"55cf8f8268c9369f5646772e6c998d9b",
+        "secret_key":"2762a686471de5c75b7c98c3607d3ab0"
+    },
+
+    "bitmex":
+    {
+        "websocket_url":"wss://www.bitmex.com/realtime",
+        "rest_url":"https://www.bitmex.com/api/v1",
+        "id":"84020702@qq.com",
+        "password":"zhon-gan@",
+        "api_key":"sf8TP20QP8WIYI0lE8jcPaQQ",
+        "secret_key":"8LWusfw6tMwTY1yWP_ftOBv6wHFlDiudgr1zDv09IB2HIHjr"
+    },
+
+    "coincheck":
+    {
+        "websocket_url":"wss://ws-api.coincheck.com/",
+        "rest_url":"https://coincheck.com",
+        "id":"84020702@qq.com",
+        "password":"zhon-gan2017",
+        "api_key":"BXxggPtT_M5nTIss",
+        "secret_key":"Khcgw-cI_vJVqk2e3CEiAPRLrkrdkLpU"
+    },
+
+    "gate":
+    {
+        "websocket_url":"wss://www.bitmex.com/realtime",
+        "rest_url":"https://www.bitmex.com/api/v1",
+        "id":"84020702@qq.com",
+        "password":"zhon-gan@",
+        "api_key":"sf8TP20QP8WIYI0lE8jcPaQQ",
+        "secret_key":"8LWusfw6tMwTY1yWP_ftOBv6wHFlDiudgr1zDv09IB2HIHjr"
+    }
+}

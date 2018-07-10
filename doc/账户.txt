@@ -1,0 +1,21 @@
+bithumb:  
+账号 84020702@qq.com  
+密码 zhon-gan@   
+安全密码 3515    
+Connect Key 55cf8f8268c9369f5646772e6c998d9b     
+Secret Key 2762a686471de5c75b7c98c3607d3ab0
+
+coincheck：
+账号 84020702@qq.com  
+密码 zhon-gan2017
+   
+huobi:
+账号 18621528717
+UID 17918191
+密码 zhon-gan@
+资金密码 zhon-gan2017
+
+gate:
+账号 84020702@qq.com  
+密码 zhon-gan@
+资金密码 zhon-gan2017
